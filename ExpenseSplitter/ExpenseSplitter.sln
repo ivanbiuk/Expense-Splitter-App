@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseSplitter", "ExpenseSplitter\ExpenseSplitter.csproj", "{27F63CA7-EB7C-4DC3-8C10-0EB2F0562B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F63CA7-EB7C-4DC3-8C10-0EB2F0562B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F63CA7-EB7C-4DC3-8C10-0EB2F0562B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F63CA7-EB7C-4DC3-8C10-0EB2F0562B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F63CA7-EB7C-4DC3-8C10-0EB2F0562B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE9EA063-7362-4B1B-A5C3-C29C3A61181D}
+	EndGlobalSection
+EndGlobal
