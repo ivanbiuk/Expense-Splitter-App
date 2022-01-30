@@ -1,7 +1,7 @@
 ﻿
 namespace ExpenseSplitter
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -59,7 +59,7 @@ namespace ExpenseSplitter
             this.saveToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 26);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,7 +69,7 @@ namespace ExpenseSplitter
             this.createNewListToolStripMenuItem,
             this.loadListToolStripMenuItem});
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(50, 24);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(50, 22);
             this.newToolStripMenuItem.Text = "New";
             // 
             // createNewListToolStripMenuItem
@@ -90,7 +90,7 @@ namespace ExpenseSplitter
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(54, 24);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(54, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -198,7 +198,7 @@ namespace ExpenseSplitter
             this.label3.TabIndex = 7;
             this.label3.Text = "Balances:";
             // 
-            // Form1
+            // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -212,8 +212,8 @@ namespace ExpenseSplitter
             this.Controls.Add(this.addExpenseButton);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Home";
+            this.Text = "Expense Splitter";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

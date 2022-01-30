@@ -17,7 +17,6 @@ namespace ExpenseSplitter
 
         public CreateListPopup()
         {
-            
             InitializeComponent();
         }
 

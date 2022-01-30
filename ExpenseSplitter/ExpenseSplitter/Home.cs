@@ -11,10 +11,10 @@ using System.Windows.Forms;
 
 namespace ExpenseSplitter
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
         public ExpenseList expenseList = new ExpenseList();
-        public Form1()
+        public Home()
         {
             InitializeComponent();
             allExpensesListView.GridLines = false;
@@ -22,13 +22,15 @@ namespace ExpenseSplitter
 
         private void createNewListToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            expenseList.ResetList();
             var CreateListPopup = new CreateListPopup();
             CreateListPopup.ShowDialog(this);
-            expenseList = CreateListPopup.newExpenseList;
-            currentListLabel.Text = expenseList.Name;
-
-            ClearInterface();
+            if (!String.IsNullOrWhiteSpace(CreateListPopup.newExpenseList.Name))
+            {
+                expenseList.ResetList();
+                expenseList = CreateListPopup.newExpenseList;
+                currentListLabel.Text = expenseList.Name;
+                ClearInterface();
+            }
             RefreshBalancesListView();
         }
 
